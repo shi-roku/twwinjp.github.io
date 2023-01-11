@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #fontstyle1 {
+            font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體";
+        }
+
+        #fontstyle2 {
+            font-family: 'Times New Roman', "標楷體";
+        }
+
+        header {
+            width: 300px;
+            height: 50px;
+            border: 3px solid;
+            padding: 0.5rem;
+            margin: 1rem;
+            margin-top: 0px;
+            text-align: center;
+        }
+
+        .div {
+            width: 300px;
+            height: 50px;
+            background-color: aliceblue;
+        }
+
+        a {
+            color: azure;
+        }
+
+        h2 {
+            color: rgb(225, 240, 14);
+            text-align: center;
+        }
+
+        #col3 {
+            columns: 3;
+        }
+
+        #col4 {
+            columns: 4;
+        }
+
+        #col6 {
+            columns: 6;
+        }
+    </style>
+</head>
+
+<body style="background-color:gray;">
+    <h1 style="color:darkslategrey; text-align-last: center;"><b>邱鈺荏</b></h1>
+    <a href="mailto:c111156130@nkust.edu.tw">C111156130@nkust.edu.tw</a></p>
+    <a href="tel:+0902315936">0902315936</a>
+    <br>
+    <h4>
+        <table>
+            <tr>
+                <td width="120px">
+                    <p>秀個照片</p>
+                </td>
+                <td><a href="https://drive.google.com/file/d/1Q2wvQZZutOJYGA0PmMBufH4Fv4cWIhEP/view"><img
+                            src="./banner.jpg" width="18%" height="12%"></td>
+            </tr>
+        </table>
+    </h4>
+    <h2><i>畢業學校</i></h2>
+    <div id="col3">
+        <header><a href="https://www.zhes.tn.edu.tw/">
+                <h4>日新國小</h4>
+        </header>
+        <header><a href="https://www.csjh.tn.edu.tw/">
+                <h4>建興國中</h4>
+        </header>
+        <header><a href="https://www.tncvs.tn.edu.tw/">
+                <h4>臺南高商</h4>
+        </header>
+    </div>
+    <hr>
+    <h4>
+        <p id="fontstyle2">目前就讀高科智商系</p>
+    </h4>
+    <a href="https://www.nkust.edu.tw/">
+        <img
+            src="data:image/png;base64,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">
+    </a>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MGCJVJCjO9c" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <h4>
+        <p></p>
+    </h4>
+    <h4>
+        <p></p>
+    </h4>
+    <hr>
+    <h2>
+        <p id="fontstyle1"><i>興趣</i></p>
+    </h2>
+    <div id="col4">
+        <header style="border:0">
+            <p>吉他</p>
+        </header>
+        <header style="border:0">
+            <p>桌球</p>
+        </header>
+        <header style="border:0">
+            <p>排球</p>
+        </header>
+        <header style="border:0">
+            <p>棒球</p>
+        </header>
+    </div>
+    <hr>
+    <h2><i>得獎</i></h2>
+    <div id="col3">
+        <header style="border:0">
+            <p>樹德科大投資競賽優選</p>
+        </header>
+        <header style="border:0">
+            <p>崑山科大投資日記佳作</p>
+        </header>
+        <header style="border:0">
+            <p>106年度國中男聲合唱團第4名</p>
+        </header>
+    </div>
+    <hr>
+    <h2><i>各項證照</i></h2>
+    <div id="col6">
+        <header style="border:0">
+            <p>會資丙檢</p>
+        </header>
+        <header style="border:0">
+            <p>人工記帳丙檢</p>
+        </header>
+        <header style="border:0">
+            <p>門市服務丙檢</p>
+        </header>
+        <header style="border:0">
+            <p>英檢中級</p>
+        </header>
+        <header style="border:0">
+            <p>軟丙</p>
+        </header>
+        <header style="border:0">
+            <p>商教會英文2級</p>
+        </header>
+    </div>
+</body>
+
+</html>
